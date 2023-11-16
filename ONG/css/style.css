@@ -1,64 +1,110 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
 body {
-    background-color: darkgrey;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing: .15cm;
+background-color: #435D84;
+font-family:  'Quicksand', sans-serif;
 }
 
 h1 {
-    font-size: 4rem;
-    color: aqua;
-    text-decoration: underline wavy;
-    text-align: center;
-    background-color: orange;
+font-size: 3rem;
+background: linear-gradient(to right, #5A8696, #435D84);
+margin-top: 0;
+border-radius: 10px 10px;
+color: white;
+padding-left: 0.5rem;
+margin-bottom: 0;
 }
 
-p {
-    font-size: 1rem;
-    text-align: center;
-    color: cornflowerblue;
-    background-color: black;
+.intro {
+margin-top: 0;
+color: white;
+font-size: .8rem;
 }
 
-#myid {
-    font-weight: bold;
+nav {
+border: 0px solid red;
+}
+nav ul {
+list-style-type: none;
+border: 0px dotted blue;
+padding: 0;
+margin: 0;
+float: right;
+
+}
+nav li {
+border: 3px solid #435D84;
+border-radius: 10px;
+width: 8rem;
+background-color: #435D84;
+text-align: center;
+margin: 0.7rem;
+display: inline-block;
+border: 1px solid white;
+}
+nav a {
+font-size: 1rem;
+color: white;
+font-weight: bold;
+text-decoration: none;
+display: block;
+padding: 0.5rem;
+
+}
+nav a:hover {
+background-color: #D1C4AB;
+color: #A45A32;
+border-radius: 9px;
+}
+
+nav.group {
+background: linear-gradient(to left, #5A8696, #435D84);
+border-radius: 10px 10px;
+}
+
+.group:after {
+content: "";
+display: table;
+clear: both;
 }
 
 h2 {
-    font-size: 2rem;
-    color: aqua;
-    background-color: orange;
-    text-align: center;
-    text-decoration: underline 4px black;
+text-align: center;
+color: white;
+font-size: 3.5rem;
+text-decoration: underline;
 }
 
-.games {
-    font-size: 2rem;
-    color: orange;
-    background-color: cornflowerblue;
-    text-align: center;
-    border: dotted 3px black;
+div.work {
+list-style-type: none;
+text-align: center;
 }
 
-ul li {
-    list-style-type: none;
-}
-.link {
-    list-style-type: none;
-    display: inline;
-    margin-right: 10px;
-}
-
-.links {
-    list-style-type: none;
-    text-align: right;
-    background-color: black;
+.game {
+display: inline-block;
+background-color: #D0C3AA;
+padding: 1rem 3rem 6rem;
+font-size: 2rem;
+color: #A45A32;
+border-radius: 10px;
+margin: 2rem;
+height: 8rem;
+box-shadow: 5px 5px #ad9870;
 }
 
-a:link {
-    color: cornflowerblue;
-    font-weight: bold;
+.game:hover {
+color: #D0C3AA;
+background-color: #A45A32;
+box-shadow: 5px 5px #D0C3AA;
 }
 
-a:visited {
-    color: aqua;
+#otter {
+width: 45px;
+border-radius: 100px;
+margin: .75rem 0 0;
+border: 3px white solid;
 }
+
