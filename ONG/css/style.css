@@ -1,0 +1,64 @@
+body {
+    background-color: darkgrey;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: .15cm;
+}
+
+h1 {
+    font-size: 4rem;
+    color: aqua;
+    text-decoration: underline wavy;
+    text-align: center;
+    background-color: orange;
+}
+
+p {
+    font-size: 1rem;
+    text-align: center;
+    color: cornflowerblue;
+    background-color: black;
+}
+
+#myid {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+    color: aqua;
+    background-color: orange;
+    text-align: center;
+    text-decoration: underline 4px black;
+}
+
+.games {
+    font-size: 2rem;
+    color: orange;
+    background-color: cornflowerblue;
+    text-align: center;
+    border: dotted 3px black;
+}
+
+ul li {
+    list-style-type: none;
+}
+.link {
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+}
+
+.links {
+    list-style-type: none;
+    text-align: right;
+    background-color: black;
+}
+
+a:link {
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+a:visited {
+    color: aqua;
+}
