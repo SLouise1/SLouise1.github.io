@@ -1,0 +1,65 @@
+/* Color Theme Swatches in Hex */
+body {
+    background-color: #2D4262;
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 10rem;
+}
+
+h1 {
+    background-color: #E37D64;
+    color: #FFFFFF;
+    margin: 0 auto;
+    width: 50%;
+    border-top: 3px solid #FFFFFF;
+    border-left: 3px solid #FFFFFF;
+    border-right: 3px solid #FFFFFF;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+.codingsummary, .workexperience {
+    background-color: #D1FFD6;
+    color: #2D4262;
+    width: 50%;
+    margin: 0 auto;
+    border-left: 3px solid #FFFFFF;
+    border-right: 3px solid #FFFFFF;
+}
+
+.projects {
+    background-color: #FDE7BB;
+    color: #E37D64;
+    width: 50%;
+    margin: 0 auto;
+    border-left: 3px solid #FFFFFF;
+    border-right: 3px solid #FFFFFF;
+}
+
+footer {
+    background-color: #FFFFFF;
+    color: #2D4262;
+    width: 50%;
+    margin: 0 auto;
+    border-bottom: 3px solid #FFFFFF;
+    border-left: 3px solid #FFFFFF;
+    border-right: 3px solid #FFFFFF;
+    border-radius: 0 0 10px 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul a{
+    text-decoration: none;
+}
+
+.page a {
+    color: #E37D64;
+}
+
+.link a {
+    color: #2D4262;
+}
