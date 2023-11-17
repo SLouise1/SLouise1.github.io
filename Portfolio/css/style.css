@@ -10,6 +10,7 @@ body {
     flex-flow: column nowrap;
     margin: 0 auto;
     width: 40%;
+    min-width: 581px;
 }
 
 h1 {
@@ -20,6 +21,7 @@ h1 {
     border-radius: 10px 10px 0 0;
     text-align: center;
 }
+
 
 .codingsummary, .workexperience {
     background-color: #D1FFD6;
@@ -58,15 +60,16 @@ h2 {
     margin: 0 auto;
     font-size: 20px;
     text-align: center;
+    padding-bottom: 1rem;
 }
 
 footer {
     background-color: #FFFFFF;
     color: #2D4262;
     margin: 0 auto;
-
     border-radius: 0 0 10px 10px;
-    width: 40%;
+    width: 100%;
+    min-width: 581px;
 }
 
 ul {
@@ -119,4 +122,5 @@ ul a{
 li {
     padding: .30rem;
 }
+
 
