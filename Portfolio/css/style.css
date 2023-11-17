@@ -9,16 +9,14 @@ body {
     display: flex;
     flex-flow: column nowrap;
     margin: 0 auto;
+    width: 40%;
 }
 
 h1 {
     background-color: #E37D64;
     color: #FFFFFF;
     margin: 0 auto;
-    width: 50%;
-    border-top: 3px solid #FFFFFF;
-    border-left: 3px solid #FFFFFF;
-    border-right: 3px solid #FFFFFF;
+    border: 3px solid #FFFFFF;
     border-radius: 10px 10px 0 0;
     text-align: center;
 }
@@ -26,19 +24,28 @@ h1 {
 .codingsummary, .workexperience {
     background-color: #D1FFD6;
     color: #2D4262;
-    width: 50%;
     margin: 0 auto;
     border-left: 3px solid #FFFFFF;
     border-right: 3px solid #FFFFFF;
+    height: 50%;
+    text-align: center;
 }
 
 .projects {
     background-color: #FDE7BB;
     color: #E37D64;
-    width: 50%;
     margin: 0 auto;
     border-left: 3px solid #FFFFFF;
     border-right: 3px solid #FFFFFF;
+    width: 40%;
+}
+
+.aboutme {
+    display: flex;
+}
+
+.myprojects {
+    width: 60%;
 }
 
 p {
@@ -54,12 +61,10 @@ h2 {
 footer {
     background-color: #FFFFFF;
     color: #2D4262;
-    width: 50%;
     margin: 0 auto;
-    border-bottom: 3px solid #FFFFFF;
-    border-left: 3px solid #FFFFFF;
-    border-right: 3px solid #FFFFFF;
+
     border-radius: 0 0 10px 10px;
+    width: 40%;
 }
 
 ul {
@@ -71,6 +76,14 @@ ul {
 ul a{
     text-decoration: none;
 }
+
+.links {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 3px 0 3px 0;
+}
+
 
 .page a {
     color: #E37D64;
@@ -85,6 +98,7 @@ ul a{
 
 .link a {
     color: #2D4262;
+    padding: .25rem;
 }
 
 .link a:hover {
