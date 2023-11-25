@@ -1,57 +1,92 @@
 body {
-    font-family: candara;
-    background-color: black;
-    color: white;
-    text-align: center;
-    margin: 2rem 20rem;
-  }
-  
-  h1 {
-    text-decoration: double underline;
-    font-size: 60px;
-    background-color: white;
-    color: black;
-    display: inline-block;
-    border-radius: 30px;
-    padding: 10px;
+    font-family: courier;
+    background-color: #F2CF66;
+    margin: 0 auto;
+    width: 80rem;
   }
   
   .about-link {
-    font-size: 20px;
-    color: black;
-    background-color: lightblue;
-    padding: 5px;
-    border-radius: 10px;
+    color: white;
     text-decoration: none;
-    float: right;
-    margin: 10px 5px 0 0;
+    padding: .25rem;
+    border: 1px solid white;
   }
   
   .about-link:hover {
     background-color: white;
-    color: blue;
+    color: #F27457;
+  }
+  
+  .links {
+    background-color: #F26457;
+    text-align: center;
+    text-decoration: none;
+    padding: .75rem;
+    margin: 0 auto;
+    text-align: right;
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+  }
+  
+  .intro {
+    width: 400px;
+    color: white;
+    background-color: #A3BF8F;
+    float: left;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: -1px;
+  }
+  
+  h1 {
+    font-size: 45px;
+    border-bottom: 2px solid black;
+    padding: .5rem;
+    margin: .25rem;
   }
   
   .brief-introduction {
-    text-decoration: underline white;
-    margin-top: 2rem;
-    margin-bottom: 8rem;
-    font-size: 30px;
+    font-size: 20px;
+    margin: .25rem;
+    padding: .75rem;
   }
   
-  .date {
-    margin-bottom: 5rem;
+  .some-posts {
+    background-color: white;
+    text-align: right;
+    margin: 0;
   }
   
-  .post{
-    border: 1px white solid;
-    margin: 20px;
-    border-radius: 10px;
+  .post  {
+    border: 1px solid black;
+    display: inline-block;
+    margin-bottom: 1rem;
+    width: 730px;
   }
   
-  
-  .intro {
-    border-top: 4px solid white;
-    border-radius: 10px;
+  p {
+    border: 1px solid black;
+    margin: 0;
+    padding: 1rem;
+    border-bottom: 2px solid black;
   }
+  
+  p.date {
+    border: 1px solid white;
+  }
+  
+  .post1 {
+    margin-top: -2px;
+  }
+  
+  img {
+    float: left;
+    border: 7px inset black;
+    margin: -1px;
+  }
+  
+  .author {
+    margin: 200px 10px 0 0;
+  }
+  
   
