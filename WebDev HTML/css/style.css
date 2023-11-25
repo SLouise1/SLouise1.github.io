@@ -1,0 +1,57 @@
+body {
+    font-family: candara;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 2rem 20rem;
+  }
+  
+  h1 {
+    text-decoration: double underline;
+    font-size: 60px;
+    background-color: white;
+    color: black;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 10px;
+  }
+  
+  .about-link {
+    font-size: 20px;
+    color: black;
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    float: right;
+    margin: 10px 5px 0 0;
+  }
+  
+  .about-link:hover {
+    background-color: white;
+    color: blue;
+  }
+  
+  .brief-introduction {
+    text-decoration: underline white;
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+    font-size: 30px;
+  }
+  
+  .date {
+    margin-bottom: 5rem;
+  }
+  
+  .post{
+    border: 1px white solid;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  
+  .intro {
+    border-top: 4px solid white;
+    border-radius: 10px;
+  }
+  
